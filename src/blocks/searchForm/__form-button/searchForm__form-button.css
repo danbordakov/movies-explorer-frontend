@@ -1,0 +1,15 @@
+.searchForm__form-button {
+  margin: 0;
+  padding: 0;
+  height: 34px;
+  width: 80px;
+  border: 0;
+  background: none;
+  margin-right: 6px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.searchForm__form-button:hover {
+  opacity: .7;
+}

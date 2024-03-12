@@ -1,0 +1,30 @@
+.searchForm__shortMeter-toggle_visible {
+  position: absolute;
+  cursor: pointer;
+  background-color: #EBEBEB;
+  width: 36px;
+  height: 20px;
+  border-radius: 10px;
+  transition: .2s;
+}
+
+.searchForm__shortMeter-toggle_visible::before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  border-radius: 8px;
+  bottom: 2px;
+  left: 2px;
+  background-color: #F5F5F5;
+  transition: .2s;
+}
+
+.searchForm__shortMeter-toggle:checked+.searchForm__shortMeter-toggle_visible {
+  background-color: #2BE080;
+}
+
+.searchForm__shortMeter-toggle:checked+.searchForm__shortMeter-toggle_visible:before {
+  transform: translateX(16px);
+  background-color: white;
+}

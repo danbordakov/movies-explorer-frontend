@@ -1,0 +1,20 @@
+.aboutMe__speciality {
+  margin: 18px 0 26px 0;
+  grid-area: speciality;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutMe__speciality {
+    font-size: 12px;
+    margin-bottom: 21px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .aboutMe__speciality {
+    font-size: 11px;
+    line-height: 16px;
+  }
+}

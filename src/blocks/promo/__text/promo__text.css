@@ -1,0 +1,23 @@
+.promo__text {
+  margin-bottom: 224px;
+  color: white;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: -0.04em;
+  max-width: 730px;
+}
+
+@media screen and (max-width: 768px) {
+  .promo__text {
+    margin-bottom: 342px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .promo__text {
+    font-size: 31px;
+    line-height: 39px;
+    margin-bottom: 246px;
+  }
+}

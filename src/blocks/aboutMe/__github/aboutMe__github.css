@@ -1,0 +1,18 @@
+.aboutMe__github {
+  margin-top: auto;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  transition: .2s;
+}
+
+@media screen and (max-width: 320px) {
+  .aboutMe__github {
+    margin-top: 40px;
+  }
+}
+
+.aboutMe__github:hover {
+  opacity: .7;
+}

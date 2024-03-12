@@ -1,0 +1,18 @@
+.aboutMe__title {
+  margin: 0;
+  padding-bottom: 23px;
+  font-size: 22px;
+  font-weight: 400;
+  border-bottom: 1px solid black;
+  grid-area: title;
+  margin-bottom: 66px;
+  letter-spacing: -0.04em;
+}
+
+@media screen and (max-width: 320px) {
+  .aboutMe__title {
+    font-size: 18px;
+    padding-bottom: 28px;
+    margin-bottom: 60px;
+  }
+}

@@ -1,0 +1,17 @@
+.techs {
+  padding: 102px 70px 98px 70px;
+  background-color: #F5F5F5;
+}
+
+@media screen and (max-width: 768px) {
+  .techs {
+    padding: 91px 50px 90px 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .techs {
+    background-color: white;
+    padding: 71px 18px 70px 18px;
+  }
+}

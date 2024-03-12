@@ -1,0 +1,29 @@
+.notFound__link {
+  font-size: 14px;
+  font-weight: 400;
+  transition: .2s;
+  color: #FF6838;
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  transform: translateX(21px);
+  margin-bottom: 60px;
+}
+
+.notFound__link:hover {
+  opacity: .7;
+}
+
+@media screen and (max-width: 768px) {
+  .notFound__link {
+    margin-bottom: 222px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .notFound__link {
+    margin-bottom: 30px;
+    font-size: 12px;
+  }
+}

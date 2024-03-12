@@ -1,0 +1,18 @@
+.moviesCardList__more-button {
+  width: 100%;
+  height: 36px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  padding: 0;
+  border: none;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #F9F9F9;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.moviesCardList__more-button:hover {
+  background-color: #EBEBEB;
+}

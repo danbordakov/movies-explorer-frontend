@@ -1,0 +1,15 @@
+.movieCard__remove-button {
+  width: 16px;
+  height: 16px;
+  border: none;
+  padding: 0;
+  background-image: url("../../../images/remove-button.svg");
+  background-color: white;
+  margin-top: 14px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.movieCard__remove-button:hover {
+  opacity: .7;
+}

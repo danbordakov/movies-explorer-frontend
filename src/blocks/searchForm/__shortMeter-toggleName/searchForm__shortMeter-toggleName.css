@@ -1,0 +1,12 @@
+.searchForm__shortMeter-toggleName {
+  line-height: 18px;
+  font-size: 14px;
+  position: relative;
+  left: 48px;
+}
+
+@media screen and (max-width: 320px) {
+  .searchForm__shortMeter-toggleName {
+    font-size: 11px;
+  }
+}

@@ -1,0 +1,16 @@
+.movieCard__add-button {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  border: 2px solid white;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 0;
+  background-color: #F9F9F9;
+  margin-top: 14px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.movieCard__add-button:hover {
+  opacity: .7;
+}

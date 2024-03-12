@@ -1,0 +1,23 @@
+.header__profileButton {
+  color: black;
+  text-decoration: none;
+  background-color: #F9F9F9;
+  display: inline-block;
+  width: 100px;
+  line-height: 32px;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  transition: .2s;
+}
+
+.header__profileButton:hover {
+  background-color: #EBEBEB;
+}
+
+@media screen and (max-width: 768px) {
+  .header__profileButton {
+    display: none;
+  }
+}

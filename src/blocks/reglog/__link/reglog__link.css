@@ -1,0 +1,13 @@
+.reglog__link {
+  font-size: 14px;
+  color: #A0A0A0;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .reglog__link {
+    font-size: 12px;
+  }
+}

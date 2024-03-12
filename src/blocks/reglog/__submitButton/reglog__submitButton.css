@@ -1,0 +1,30 @@
+.reglog__submitButton {
+  width: 100%;
+  padding: 0;
+  background-color: #FF6838;
+  height: 45px;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  transition: .2s;
+  margin-top: 69px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.reglog__submitButton:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 320px) {
+  .reglog__submitButton {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(130px);
+    margin: 0;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,8 @@
+.movieCard__title {
+  font-size: 13px;
+  font-weight: 500;
+  margin: 14px 12px 10px 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
