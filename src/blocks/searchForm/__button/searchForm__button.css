@@ -1,15 +1,17 @@
-.searchForm__form-button {
+.searchForm__button {
+  position: absolute;
+  right: 6px;
+  top: 6px;
   margin: 0;
   padding: 0;
   height: 34px;
   width: 80px;
   border: 0;
   background: none;
-  margin-right: 6px;
   cursor: pointer;
   transition: .2s;
 }
 
-.searchForm__form-button:hover {
+.searchForm__button:hover {
   opacity: .7;
 }

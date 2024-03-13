@@ -3,6 +3,7 @@
   font-weight: 500;
   margin-top: 0;
   margin-bottom: 125px;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {

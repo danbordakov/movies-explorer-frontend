@@ -25,7 +25,7 @@
   background-color: #F2F2F2;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 380px) {
   .aboutProject__progressScale {
     font-size: 11px;
     grid-template-columns: 35% 65%;

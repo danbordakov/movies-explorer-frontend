@@ -6,11 +6,9 @@
 @import url("./blocks/header/__movieLink/header__movieLink.css");
 @import url("./blocks/header/__registryLink/header__registryLink.css");
 @import url("./blocks/header/__loginButton/header__loginButton.css");
-@import url("./blocks/header/__profileButton/header__profileButton.css");
-@import url("./blocks/header/__profileButton/_type/_menu/header__profileButton_type_menu.css");
+@import url("./blocks/profileButton/profileButton.css");
+@import url("./blocks/profileButton/_type/_menu/profileButton_type_menu.css");
 @import url("./blocks/header/__burgerMenu/header__burgerMenu.css");
-@import url("./blocks/main/main.css");
-@import url("./blocks/main/_isActive/main_isActive.css");
 @import url("./blocks/promo/promo.css");
 @import url("./blocks/promo/__label/promo__label.css");
 @import url("./blocks/promo/__text/promo__text.css");
@@ -42,9 +40,8 @@
 @import url("./blocks/portfolio/__link-container/portfolio__link-conterner.css");
 @import url("./blocks/portfolio/__link/portfolio__link.css");
 @import url("./blocks/searchForm/searchForm.css");
-@import url("./blocks/searchForm/__form/searchForm__form.css");
-@import url("./blocks/searchForm/__form-input/searchForm__form-input.css");
-@import url("./blocks/searchForm/__form-button/searchForm__form-button.css");
+@import url("./blocks/searchForm/__input/searchForm__input.css");
+@import url("./blocks/searchForm/__button/searchForm__button.css");
 @import url("./blocks/searchForm/__shortMeter/searchForm__shortMeter.css");
 @import url("./blocks/searchForm/__shortMeter-toggle/searchForm__shortMeter-toggle.css");
 @import url("./blocks/searchForm/__shortMeter-toggle/_visible/searchForm__shortMeter-toggle_visible.css");
@@ -67,6 +64,7 @@
 @import url("./blocks/profile/__form-row/profile__form-row.css");
 @import url("./blocks/profile/__form-row/_type/_email/profile__form-row_type_email.css");
 @import url("./blocks/profile/__form-input/profile__form-input.css");
+@import url("./blocks/profile/__form-input/_focused/profile__form-input_focused.css");
 @import url("./blocks/profile/__form-label/profile__form-label.css");
 @import url("./blocks/profile/__form/profile__form.css");
 @import url("./blocks/profile/__title/profile__title.css");
@@ -93,8 +91,8 @@
 @import url("./blocks/notFound/__title/notFound__title.css");
 @import url("./blocks/navigation/navigation.css");
 @import url("./blocks/navigation/_opened/navigation_opened.css");
-@import url("./blocks/navigation/__darkLayer/navigation__darkLayer.css");
-@import url("./blocks/navigation/__darkLayer/_visible/navigation__darkLayer_visible.css");
 @import url("./blocks/navigation/__links/navigation__links.css");
 @import url("./blocks/navigation/__link/navigation__link.css");
 @import url("./blocks/navigation/__closeButton/navigation__closeButton.css");
+@import url("./blocks/darkLayer/navigation__darkLayer.css");
+@import url("./blocks/darkLayer/_visible/navigation__darkLayer_visible.css");

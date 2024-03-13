@@ -6,4 +6,7 @@
   border: 0;
   padding: 0;
   width: 80%;
+  cursor: default;
+  border: 1px solid rgba(0, 0, 0, 0);
+  transition: .2s;
 }

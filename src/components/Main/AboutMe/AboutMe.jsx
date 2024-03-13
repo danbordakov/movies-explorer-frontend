@@ -1,3 +1,5 @@
+import studentPhoto from "../../../images/photo.jpeg"
+
 function AboutMe() {
   return (
     <section className="aboutMe" id="aboutMe">
@@ -8,7 +10,7 @@ function AboutMe() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio deleniti quasi quasi quasi quasi quasi nesciunt dolores porro aliquid suscipit quibusdam quibusdam quibusdam quibusdam quibusdam nulla, assumenda quisquam libero doloribus consequatur qui quia eum obcaecati, sapiente, rem dolorum incidunt fugit earum? Fuga, laborum.
       </p>
       <a href="https://github.com/danbordakov" className="aboutMe__github" target="_blank" rel="noreferrer">Github</a>
-      <div className="aboutMe__photo"></div>
+      <img src={studentPhoto} className="aboutMe__photo" alt="Фото студента" />
     </section>
   )
 }

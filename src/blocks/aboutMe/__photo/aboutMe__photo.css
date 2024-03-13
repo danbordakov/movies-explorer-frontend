@@ -1,6 +1,5 @@
 .aboutMe__photo {
-  background-image: url("../../../images/photo.jpg");
-  background-size: cover;
+  object-fit: cover;
   width: 270px;
   height: 327px;
   border-radius: 10px;
@@ -9,7 +8,14 @@
 
 @media screen and (max-width: 768px) {
   .aboutMe__photo {
-    width: 255px;
+    width: 33vw;
+    height: 307px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .aboutMe__photo {
+    width: 100%;
     height: 307px;
   }
 }

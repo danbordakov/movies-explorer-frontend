@@ -16,6 +16,12 @@
   }
 }
 
+@media screen and (max-width: 380px) {
+  .portfolio__link {
+    font-size: 24px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .portfolio__link {
     font-size: 18px;

@@ -5,7 +5,7 @@ function Navigation({ isOpen, onClose }) {
   
   return (
     <>
-      <div className={`navigation__darkLayer ${isOpen ? 'navigation__darkLayer_visible' : ''}`}></div>
+      <div className={`darkLayer ${isOpen ? 'darkLayer_visible' : ''}`}></div>
       <div className={`navigation ${isOpen ? 'navigation_opened' : ''}`}>
         <button
           type='button'
@@ -19,7 +19,7 @@ function Navigation({ isOpen, onClose }) {
           <NavLink className='navigation__link' to='/' onClick={onClose}>Главная</NavLink>
           <NavLink className='navigation__link' to='/movies' onClick={onClose}>Фильмы</NavLink>
           <NavLink className='navigation__link' to='/saved-movies' onClick={onClose}>Сохранённые фильмы</NavLink>
-          <NavLink to='/profile' className='header__profileButton header__profileButton_type_menu' onClick={onClose}>Аккаунт</NavLink>
+          <NavLink to='/profile' className='profileButton profileButton_type_menu' onClick={onClose}>Аккаунт</NavLink>
         </nav>
       </div>
     </>

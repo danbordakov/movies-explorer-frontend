@@ -1,0 +1,10 @@
+.profile__form-input_focused:focus {
+  /* border-bottom: 1px solid black; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  transition: .2s;
+}
+
+.profile__form-input_focused:hover {
+  cursor: text;
+}

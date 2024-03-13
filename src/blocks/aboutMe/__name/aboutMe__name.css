@@ -14,9 +14,14 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 380px) {
   .aboutMe__name {
     margin-top: 38px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .aboutMe__name {
     font-size: 30px;
   }
 }

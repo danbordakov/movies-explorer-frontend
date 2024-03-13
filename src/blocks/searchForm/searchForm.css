@@ -1,4 +1,5 @@
 .searchForm {
+  position: relative;
   border-bottom: 1px solid #E8E8E8;
   padding-bottom: 69px;
   margin: 60px 70px 10px 70px;

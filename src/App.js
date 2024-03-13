@@ -39,27 +39,29 @@ function App() {
       <Header
         onOpenNavigation={openNavigation}
       />
-      <Routes>
-        <Route
-          path="/"
-          element={<Main />}
-        />
-        <Route
-          path="/movies"
-          element={<Movies />}
-        />
-        <Route
-          path="/saved-movies"
-          element={<SavedMovies />}
-        />
-        <Route
-          path="/profile"
-          element={<Profile/>}
-        />
-        <Route path="/signup" element={<Register />} />
-        <Route path="/signin" element={<Login />} />
-        <Route path="*" element={<NotFoundError />} />
-      </Routes>
+      <main>
+        <Routes>
+          <Route
+            path="/"
+            element={<Main />}
+          />
+          <Route
+            path="/movies"
+            element={<Movies />}
+          />
+          <Route
+            path="/saved-movies"
+            element={<SavedMovies />}
+          />
+          <Route
+            path="/profile"
+            element={<Profile/>}
+          />
+          <Route path="/signup" element={<Register />} />
+          <Route path="/signin" element={<Login />} />
+          <Route path="*" element={<NotFoundError />} />
+        </Routes>
+      </main>
       <Footer />
     </div>
   );

@@ -1,11 +1,11 @@
-  .header__profileButton_type_menu {
+  .profileButton_type_menu {
     display: block;
     margin-top: auto;
     margin-bottom: 90px;
   }
 
   @media screen and (max-width: 320px) {
-    .header__profileButton_type_menu {
+    .profileButton_type_menu {
       margin-bottom: 46px;
     }
   }

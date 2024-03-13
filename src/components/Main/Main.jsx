@@ -7,7 +7,7 @@ import Portfolio from "./Portfolio/Portfolio";
 
 function Main() {
   return (
-    <main className="main main_isActive">
+    <>
     {/* <main className="main"> */}
       <Promo />
       <NavTab />
@@ -15,7 +15,7 @@ function Main() {
       <Techs />
       <AboutMe />
       <Portfolio />
-    </main>
+    </>
   )
 }
 
