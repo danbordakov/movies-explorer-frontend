@@ -1,0 +1,14 @@
+.reglog {
+  margin: 0 auto;
+  padding-top: calc(50vh - 560px/2);
+  max-width: 396px;
+  height: 560px;
+}
+
+@media screen and (max-width: 320px) {
+  .reglog {
+    height: calc(100vh - 56px);
+    padding-top: 56px;
+    width: 260px;
+  }
+}

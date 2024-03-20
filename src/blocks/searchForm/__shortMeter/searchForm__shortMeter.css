@@ -1,0 +1,13 @@
+.searchForm__shortMeter {
+  margin: 41px auto 0 auto;
+  display: block;
+  height: 20px;
+  width: 174px;
+}
+
+@media screen and (max-width: 320px) {
+  .searchForm__shortMeter {
+    width: 148px;
+    margin-top: 42px;
+  }
+}

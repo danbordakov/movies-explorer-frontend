@@ -1,0 +1,21 @@
+.movieCard__poster {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  width: 100%;
+  height: 151px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .movieCard__poster {
+    height: 190px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .movieCard__poster {
+    height: 168px;
+  }
+}

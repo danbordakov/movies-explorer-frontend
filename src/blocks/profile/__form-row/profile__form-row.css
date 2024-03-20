@@ -1,0 +1,11 @@
+.profile__form-row {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 16px;
+}
+
+@media screen and (max-width: 320px) {
+  .profile__form-row {
+    margin: 0 30px;
+  }
+}

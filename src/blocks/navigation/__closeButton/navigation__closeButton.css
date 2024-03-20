@@ -1,0 +1,20 @@
+.navigation__closeButton {
+  border: none;
+  background: none;
+  padding: 0;
+  position: fixed;
+  right: 22px;
+  top: 22px;
+  cursor: pointer;
+}
+
+.navigation__closeButton:hover {
+  opacity: .7;
+}
+
+@media screen and (max-width: 320px) {
+  .navigation__closeButton {
+    right: 13px;
+    top: 13px;
+  }
+}

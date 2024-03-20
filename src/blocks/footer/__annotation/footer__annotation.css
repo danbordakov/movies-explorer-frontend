@@ -1,0 +1,15 @@
+.footer__annotation {
+  color: #A0A0A0;
+  border-bottom: 1px solid #E8E8E8;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__annotation {
+    font-size: 12px;
+    margin-bottom: 33px;
+  }
+}

@@ -1,0 +1,27 @@
+.aboutMe__name {
+  grid-area: name;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 58px;
+  margin: 0;
+  letter-spacing: -0.04em;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutMe__name {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .aboutMe__name {
+    margin-top: 38px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .aboutMe__name {
+    font-size: 30px;
+  }
+}

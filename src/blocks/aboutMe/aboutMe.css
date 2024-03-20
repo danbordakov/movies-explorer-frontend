@@ -1,0 +1,50 @@
+.aboutMe {
+  padding: 112px 70px 0 70px;
+  display: grid;
+  grid-template-areas:
+    "title title"
+    "name photo"
+    "speciality photo"
+    "text photo"
+    "github photo";
+  grid-template-rows: auto 58px 64px auto;
+  grid-template-columns: auto 270px;
+  column-gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutMe {
+    padding: 92px 50px 0 50px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto 40px 54px auto;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .aboutMe {
+    grid-template-areas:
+      "title"
+      "photo"
+      "name"
+      "speciality"
+      "text"
+      "github";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .aboutMe {
+    grid-template-areas:
+      "title"
+      "photo"
+      "name"
+      "speciality"
+      "text"
+      "github";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+    padding: 72px 14px 0 14px;
+  }
+}

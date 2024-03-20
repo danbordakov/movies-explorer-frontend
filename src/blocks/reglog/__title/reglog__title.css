@@ -1,0 +1,15 @@
+.reglog__title {
+  margin-top: 42px;
+  margin-bottom: 41px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+}
+
+@media screen and (max-width: 320px) {
+  .reglog__title {
+    text-align: center;
+    margin-top: 46px;
+    margin-bottom: 75px;
+  }
+}

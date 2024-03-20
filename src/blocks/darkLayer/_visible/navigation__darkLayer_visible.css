@@ -1,0 +1,5 @@
+.darkLayer_visible {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility .4s, opacity .4s;
+}

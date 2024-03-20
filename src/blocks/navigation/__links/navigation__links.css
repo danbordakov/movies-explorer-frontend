@@ -1,0 +1,17 @@
+.navigation__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  margin-top: 159px;
+  padding-bottom: 90px;
+  height: calc(100vh - 159px);
+}
+
+@media screen and (max-width: 320px) {
+  .navigation__links {
+    gap: 24px;
+    margin-top: 144px;
+    height: calc(100vh - 144px)
+  }
+}

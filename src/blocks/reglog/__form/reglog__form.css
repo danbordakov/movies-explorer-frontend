@@ -1,0 +1,11 @@
+.reglog__form {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 320px) {
+  .reglog__form {
+    position: relative;
+    min-height: calc(100vh - 307px);
+  }
+}

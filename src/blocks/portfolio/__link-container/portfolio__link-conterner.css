@@ -1,0 +1,27 @@
+.portfolio__link-container {
+  border-bottom: 1px solid #E8E8E8;
+  padding-bottom: 19px;
+}
+
+.portfolio__link-container:last-child {
+  border-bottom: none;
+  padding-top: 20px;
+}
+
+.portfolio__link-container:nth-child(2n) {
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 320px) {
+  .portfolio__link-container {
+    padding-bottom: 7px;
+  }
+
+  .portfolio__link-container:nth-child(2n) {
+    padding-top: 10px;
+  }
+
+  .portfolio__link-container:last-child {
+    padding-top: 10px;
+  }
+}

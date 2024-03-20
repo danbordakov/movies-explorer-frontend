@@ -1,0 +1,10 @@
+.reglog__error {
+  font-size: 10px;
+  color: #EE3465;
+  opacity: 0;
+  transition: .2s;
+}
+
+.reglog__error:hover {
+  cursor: default;
+}

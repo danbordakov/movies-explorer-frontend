@@ -1,0 +1,9 @@
+.reglog__link_type_link {
+  text-decoration: none;
+  color: #FF6838;
+  transition: .2s;
+}
+
+.reglog__link_type_link:hover {
+  opacity: .7;
+}

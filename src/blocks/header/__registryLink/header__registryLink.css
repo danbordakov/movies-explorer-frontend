@@ -1,0 +1,19 @@
+.header__registryLink {
+  margin-left: auto;
+  margin-right: 30px;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  transition: .2s;
+}
+
+.header__registryLink:hover {
+  opacity: .7;
+}
+
+@media screen and (max-width: 320px) {
+  .header__registryLink {
+    font-size: 10px;
+    margin-right: 14px;
+  }
+}

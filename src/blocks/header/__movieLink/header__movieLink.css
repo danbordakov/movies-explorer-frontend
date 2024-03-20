@@ -1,0 +1,25 @@
+.header__movieLink {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  /* margin-left: 430px; */
+  transition: .2s;
+}
+
+.header__movieLink:nth-of-type(2n) {
+  margin-left: 16px;
+}
+
+.header__movieLink:hover {
+  opacity: .7;
+}
+
+@media screen and (max-width: 768px) {
+  .header__movieLink {
+    display: none;
+  }
+}
+
+.header__movieLink.active {
+  font-weight: 500;
+}

@@ -1,0 +1,17 @@
+.navtab__item {
+  color: black;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  transition: .2s;
+}
+
+.navtab__item:hover {
+  opacity: .7;
+}
+
+@media screen and (max-width: 320px) {
+  .navtab__item {
+    font-size: 11px;
+  }
+}

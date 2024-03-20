@@ -1,0 +1,10 @@
+.reglog__logo {
+  display: block;
+  width: fit-content;
+}
+
+@media screen and (max-width: 320px) {
+  .reglog__logo {
+    margin: 0 auto;
+  }
+}
